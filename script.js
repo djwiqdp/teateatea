@@ -4,28 +4,28 @@ const DATA = [
     id:"tp-001", title:"Twinings Earl Grey Tin", brand:"Twinings",
     year:"1970s", era:"Vintage", origin:"UK",
     material:["Tin"], form:"Tin Box",
-    image:":img/tp-001-front.jpg",
+    image:"img/tp-001-front.jpg",
     note:"틴의 재사용성과 헤리티지 타이포"
   },
   {
     id:"tp-002", title:"MUJI Green Tea Pouch", brand:"MUJI",
     year:"2010s", era:"2010s", origin:"JP",
     material:["Paper","Foil"], form:"Stand Pouch",
-    image:":img/tp-002-front.jpg",
+    image:"img/tp-002-front.jpg",
     note:"미니멀 라벨과 기능성 파우치 사용"
   },
   {
     id:"tp-003", title:"Paper Tube Sencha", brand:"Generic",
     year:"2020s", era:"2020s", origin:"KR",
     material:["Paper"], form:"Tube",
-    image:":img/tp-003-front.png",
+    image:"img/tp-003-front.png",
     note:"원형 종이 튜브의 선물용 보편화 시작"
   },
   {
     id:"tp-004", title:"Glass Jar Loose Leaf", brand:"Local Tea",
     year:"1990s", era:"1990s", origin:"FR",
     material:["Glass","Metal"], form:"Jar",
-    image:":img/tp-004-front.jpg",
+    image:"img/tp-004-front.jpg",
     note:"내용물 가시성이 높은 유리 보틀"
   }
 ];
