@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <title>Tea Pack Archive — Image Grid</title>
+  <meta name="description" content="재료·형태·시대 기준으로 정리한 티 포장 이미지 아카이브. 극미니멀 이미지 그리드.">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header class="head">
+  <div class="head__inner">
+    <h1 class="brand">
+      <img src=":img/logo.png" alt="Tea Pack Archive" class="brand-logo" />
+    </h1>
+    <p class="tagline">Let's Grab a tea...🍵🍵🍵</p>
+    <div class="filters" id="filters" role="group" aria-label="필터">
+      <!-- (선택) 필터 칩 -->
+      <button data-key="material" data-val="Tin">Tin</button>
+      <button data-key="material" data-val="Paper">Paper</button>
+      <button data-key="material" data-val="Glass">Glass</button>
+      <button data-key="form" data-val="Stand Pouch">Stand Pouch</button>
+      <button data-key="form" data-val="Tin Box">Tin Box</button>
+      <button data-key="era" data-val="Vintage">Vintage</button>
+      <button data-key="era" data-val="2010s">2010s</button>
+      <button id="clear">Reset</button>
+    </div>
+  </div>
+</header>
+
+  <!-- 순수 이미지 masonry -->
+  <main class="gallery" id="gallery" aria-live="polite">
+    <!-- JS가 항목 주입 -->
+  </main>
+
+  <!-- 최소 상세 시트 -->
+  <dialog id="sheet" class="sheet">
+    <button class="sheet__close" id="sheetClose" aria-label="닫기">×</button>
+    <div class="sheet__img"><img id="sheetImg" alt="" /></div>
+    <div class="sheet__meta">
+      <h2 id="sheetTitle" class="serif"></h2>
+      <p id="sheetMeta" class="meta"></p>
+      <p id="sheetNote" class="note"></p>
+    </div>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
